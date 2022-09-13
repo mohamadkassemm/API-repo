@@ -2,9 +2,9 @@
 
 $string = $_GET["text"];
 if ($string==strrev($string)){
-        echo "palindrome";
+        $result= "palindrome";
 }else{
-        echo "not palindrome";
+        $result = "not palindrome";
 }
-
+echo json_encode($result);
 ?>
