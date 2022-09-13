@@ -7,7 +7,7 @@ $c = $_POST["c"];
 if($b==0){
     $total= "Math error";
 }else{
-    $total = $a**3 + $b*c - $a/$b;
+    $total = $a**3 + $b*$c - $a/$b;
 }
 $result=[
     "total" => $total,
